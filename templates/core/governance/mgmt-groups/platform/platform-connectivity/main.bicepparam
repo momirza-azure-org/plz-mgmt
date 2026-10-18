@@ -14,7 +14,7 @@ param platformConnectivityConfig = {
   managementGroupIntermediateRootName: 'zava'
   managementGroupDisplayName: 'Connectivity'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: [Enable-DDoS-VNET]
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []
