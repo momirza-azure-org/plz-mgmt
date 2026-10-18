@@ -100,7 +100,7 @@ param hubNetworks = [
       privateDnsZones: []
     }
     ddosProtectionPlanSettings: {
-      deployDdosProtectionPlan: true
+      deployDdosProtectionPlan: false
       name: 'ddos-alz-${parLocations[0]}'
     }
   }
