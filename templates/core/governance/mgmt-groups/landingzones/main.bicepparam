@@ -14,7 +14,7 @@ param landingZonesConfig = {
   managementGroupIntermediateRootName: 'zava'
   managementGroupDisplayName: 'Landing Zones'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: [Enable-DDoS-VNET]
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []
