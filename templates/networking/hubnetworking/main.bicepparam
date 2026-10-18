@@ -83,7 +83,7 @@ param hubNetworks = [
     }
     vpnGatewaySettings: {
       deployVpnGateway: true
-      name: 'vgw-alz-${parLocations[0]}'
+      name: 'vgw-plz-${parLocations[0]}'
       skuName: 'VpnGw1AZ'
       vpnMode: 'activeActiveBgp'
       vpnType: 'RouteBased'
@@ -100,7 +100,7 @@ param hubNetworks = [
       privateDnsZones: []
     }
     ddosProtectionPlanSettings: {
-      deployDdosProtectionPlan: true
+      deployDdosProtectionPlan: false
       name: 'ddos-alz-${parLocations[0]}'
     }
   }
@@ -167,7 +167,7 @@ param hubNetworks = [
     }
     vpnGatewaySettings: {
       deployVpnGateway: true
-      name: 'vgw-alz-${parLocations[1]}'
+      name: 'vgw-plz-${parLocations[1]}'
       skuName: 'VpnGw1AZ'
       vpnMode: 'activeActiveBgp'
       vpnType: 'RouteBased'
